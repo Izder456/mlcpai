@@ -1,5 +1,5 @@
 # MLCPAI
-Machine Learning Conversational Program (AI)
+Machine Learning Conversation in Python (AI)
 
 # Instructions
 Run the "main.py" file with python3 to train the bot with human input
