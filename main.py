@@ -78,4 +78,8 @@ while True:
         row = cursor.fetchone()
     # tell the database the sentence has been used once more, and prepare the sentence
     B = row[1]
+    if random.randint(1,169) == 1:
+        print('Bot: ' + B)
+        print('Bot: Alright, Talk to you later')
+	       break
     cursor.execute('UPDATE sentences SET used=used+1 WHERE rowid=?', (row[0],))
