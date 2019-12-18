@@ -11,7 +11,7 @@ simply run main.py with python3 to begin
 * c+p all of the text in the file to the program and it will train
 
 ## example sqlite database
-* There is an exmmple sqlite database if you want to just start talking to the bot at /EXAMPLE/mlcpai.sqlite & /EXAMPLE/mlcpai.sqlite.journal
+* There is an example sqlite database if you want to just start talking to the bot at /EXAMPLE/mlcpai.sqlite & /EXAMPLE/mlcpai.sqlite.journal
 * The sqlite database must be in the same dir as main.py!!!!
 
 ## A side note
