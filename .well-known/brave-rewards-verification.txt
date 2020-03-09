@@ -1,4 +1,4 @@
 This is a Brave Rewards publisher verification file.
 
 Domain: mlcpai.netlify.com
-Token: 42e66645b284301751413aab6d5429df186282d1f229209c5b6e4a6cfbb18089
+Token: ef454c23617019677c774c9e5e939110a01e7a098a6a3a5e1f8d1c0771a03bd6
