@@ -5,7 +5,7 @@ import os.path
 
 startmes = """
 +-------------------------------------------------------------+
-|Machine Learning Conversational Program by Аїӡек‌ ‌Меѥҏ‌ v1.0.1 |
+|Machine Learning Converstion in Python3 by Аїӡек‌ ‌Меѥҏ‌ v1.0.1 |
 +-------------------------------------------------------------+
 
 +---------------------------------------------------+
@@ -32,7 +32,7 @@ helpmes = """
 +-------------------------------------+
 |In order to communicate with the bot,|
 |simply type what you want to say,    |
-| into the input space.               |
+|into the input space.                |
 |When typing please use               |
 |only lower case characters,          |
 |and no special characters.           |
